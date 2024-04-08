@@ -7,6 +7,6 @@ Based around Project 0 in CS50's Web Programming Course, the task was to create 
 - **Advanced Search Page:** Moogle has a Advanced Search page that mimics Google's own with similar functionailty.
 
 ## Screenshots
-![](moogle-search.jpg.png)
-![](moogle-image.png)
-![](moogle-advanced.png)
+![](screenshots/moogle-search.jpg.png)
+![](screenshots/moogle-image.png)
+![](screenshots/moogle-advanced.png)
