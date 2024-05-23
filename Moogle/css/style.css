@@ -35,7 +35,6 @@ Normal search and image search styling
     border: 1px rgb(103, 99, 99) solid;
     border-radius: 24px;
     margin: 0 auto;
-    width: calc(632px + 6px);
     width: 544px;
     height: 44px;
   }
@@ -207,3 +206,8 @@ Advanced search styling
     justify-content: flex-end;
     width: 791px;
 }
+
+
+
+
+
