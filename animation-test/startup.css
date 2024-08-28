@@ -1,0 +1,89 @@
+body, html {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.command {
+    font-size: 20px;
+    font-family: "White Rabbit", monospace;
+    color: green;
+    border-right: 5px solid green;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: 
+        typing 2s steps(32),
+        cursor .6s step-end infinite alternate 2s;
+}
+
+.hidden {
+    display: none;
+    font-size: 20px;
+    font-family: "White Rabbit", monospace;
+    color: green;
+}
+
+.output {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    font-family: "White Rabbit", monospace;
+    color: green;
+}
+
+@keyframes typing {
+    from { width: 0ch; } 
+    to { width: 32ch; } /* Ensure this width is appropriate for your text */
+}
+
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+
+/* Mobile styles */
+@media (max-width: 748px) {
+    body, html {
+        background-color: black;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .static-text {
+        font-size: 20px;
+        font-family: "White Rabbit", monospace;
+        color: green;
+        white-space: nowrap;
+    }
+
+    .text {
+        font-size: 20px;
+        font-family: "White Rabbit", monospace;
+        color: green;
+        border-right: 5px solid green;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+            typing 2s steps(32) 1 normal both,
+            cursor .6s step-end infinite alternate 2s;
+    }
+}

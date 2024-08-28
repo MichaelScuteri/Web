@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+/* ============== Containers ============== */
+
+.container {
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 100%;
+    height: calc(100vh - 70px);
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+/* =============== Palletes =============== */
+
+.controls {
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+input[type="color"] {
+    display: none;
+}
+
+input[type="color"]:hover {
+    cursor: pointer;
+}
+
